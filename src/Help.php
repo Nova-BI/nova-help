@@ -302,7 +302,7 @@ class Help extends Field
      * @return array
      * @throws Exception
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         $this->validateCollapsible();
 
